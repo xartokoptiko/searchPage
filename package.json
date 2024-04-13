@@ -1,0 +1,14 @@
+{
+  "name": "searchpage",
+  "version": "1.0.0",
+  "description": "This is a simple custom search Page that is open source for being more productive !",
+  "main": "/javascript/main.js",
+  "scripts": {
+    "build": "tailwindcss -i ./main.css -o ./css/main.css"
+  },
+  "author": "Lampros Karachristos",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

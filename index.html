@@ -36,8 +36,8 @@
             <p class="text-4xl text-white font-extrabold">What are you looking for today ?</p>
 
             <div class="flex felx-row space-x-6">
-                <input type="text" class="bg-white rounded-full p-7 text-lightblack text-lg font-extrabold w-[900px]" />
-                <button class="bg-purple text-white rounded-full p-7 text-lg font-extrabold w-[200px]">
+                <input id="searchInput" onkeypress="handleKeyPress(event)" type="text" class="bg-white rounded-full p-7 text-lightblack text-lg font-extrabold w-[900px]" />
+                <button onclick="searchGoogle()" class="bg-purple text-white rounded-full p-7 text-lg font-extrabold w-[200px]">
                     Search
                 </button>
             </div>
